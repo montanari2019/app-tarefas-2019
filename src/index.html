@@ -68,26 +68,7 @@
         </span>
       </div>
       <ul class="list-unstyled mt-3" id="lista-categorias">
-        <li>
-          <a href="#" class="link-category">
-            <img src="assets/images/yellow.svg" alt="" class="mr-1"> School
-          </a>
-        </li>
-        <li>
-          <a href="#" class="link-category">
-            <img src="assets/images/green.svg" alt="" class="mr-1"> Trabalho de conclusão
-          </a>
-        </li>
-        <li>
-          <a href="#" class="link-category">
-            <img src="assets/images/blue.svg" alt="" class="mr-1"> Trabalho
-          </a>
-        </li>
-        <li>
-          <a href="#" class="link-category">
-            <img src="assets/images/red.svg" alt="" class="mr-1"> Pessoal
-          </a>
-        </li>
+        
       </ul>
     </nav>
     
@@ -97,81 +78,7 @@
       <div class="d-none" id="mensagem"></div>
       
       <!-- Tarefa -->
-      <section class="task-background d-flex m-3">
-        <div>
-          <input type="checkbox" class="mt-1">
-        </div>
-        <div class="flex-fill ml-2 mr-2">
-          <div><a href="#" class="link-task">Entregar trabalho de Estrutura de dados</a></div>
-          <div class="text-muted font-text">09/09/2019 as 12:00</div>
-          <div class="mt-2 font-text"><img src="assets/images/yellow.svg" alt="" class="mr-1"> Escola</div>
-        </div>
-        <div>
-          <a href="#"><img src="assets/images/delete.svg" alt=""></a>
-        </div>
-      </section>
-
-      <!-- Tarefa -->
-      <section class="task-background d-flex m-3">
-        <div>
-          <input type="checkbox" class="mt-1">
-        </div>
-        <div class="flex-fill ml-2 mr-2">
-          <div><a href="#" class="link-task">Prova Programação OO</a></div>
-          <div class="text-muted font-text">09/09/2019 as 12:00</div>
-          <div class="mt-2 font-text"><img src="assets/images/yellow.svg" alt="" class="mr-1"> Escola</div>
-        </div>
-        <div>
-          <a href="#"><img src="assets/images/delete.svg" alt=""></a>
-        </div>
-      </section>
-        
-      <!-- Tarefa -->
-      <section class="task-background d-flex m-3">
-        <div>
-          <input type="checkbox" class="mt-1">
-        </div>
-        <div class="flex-fill ml-2 mr-2">
-          <div><a href="#" class="link-task">Ler artigo sobre NoSQL</a></div>
-          <div class="text-muted font-text">09/09/2019 as 12:00</div>
-          <div class="mt-2 font-text"><img src="assets/images/green.svg" alt="" class="mr-1"> Trabalho de Conclusão</div>
-        </div>
-        <div>
-          <a href="#"><img src="assets/images/delete.svg" alt=""></a>
-        </div>
-      </section>    
-      
-      <!-- Tarefa -->
-      <section class="task-background d-flex m-3">
-        <div>
-          <input type="checkbox" class="mt-1">
-        </div>
-        <div class="flex-fill ml-2 mr-2">
-          <div><a href="#" class="link-task">Pagar conta de energia elétrica</a></div>
-          <div class="text-muted font-text">09/09/2019 as 12:00</div>
-          <div class="mt-2 font-text"><img src="assets/images/red.svg" alt="" class="mr-1"> Pessoal</div>
-        </div>
-        <div>
-          <a href="#"><img src="assets/images/delete.svg" alt=""></a>
-        </div>
-      </section>      
-
-      <!-- Tarefa -->
-      <section class="task-background d-flex m-3">
-        <div>
-          <input type="checkbox" class="mt-1">
-        </div>
-        <div class="flex-fill ml-2 mr-2">
-          <div><a href="#" class="link-task">Marcar férias</a></div>
-          <div class="text-muted font-text">09/09/2019 as 12:00</div>
-          <div class="mt-2 font-text"><img src="assets/images/blue.svg" alt="" class="mr-1"> Trabalho</div>
-        </div>
-        <div>
-          <a href="#"><img src="assets/images/delete.svg" alt=""></a>
-        </div>
-      </section>
-    
-    </section>
+     
 
     <div class="modal" id="modal">
       <div class="modal-dialog">
@@ -214,10 +121,18 @@
 
   <!-- Importações -->
   <script src="assets/js/models/Categorias.js"></script>
+  <script src="assets/js/models/Tarefas.js"></script>
+
   <script src="assets/js/services/Service.js"></script>
   <script src="assets/js/services/CategoriaService.js"></script>
+  <script src="assets/js/services/TarefaServise.js"></script>
+
   <script src="assets/js/views/CategoriaView.js"></script>
+  <script src="assets/js/views/TarefaView.js"></script>
+  
   <script src="assets/js/controllers/CategoriaController.js"></script>
+  <script src="assets/js/controllers/TarefaController.js"></script>
+
   <script src="assets/js/app.js"></script>
 
   <!-- Importações do Bootstrap -->
